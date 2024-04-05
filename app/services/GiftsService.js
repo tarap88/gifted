@@ -18,7 +18,7 @@ class GiftsService {
 		const gift = AppState.gifts.find(foundGift => foundGift.id == id)
 		if (gift.opened) return
 		gift.opened = true
-
+		const response = await
 	}
 
 
